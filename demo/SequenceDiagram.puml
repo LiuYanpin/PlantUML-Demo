@@ -1,0 +1,6 @@
+@startuml
+Kathy -> Alice: Http Request
+Alice --> Kathy: Http Response
+Kathy -> Bob: Another Request
+Bob --> Kathy: Another Http Response
+@enduml
